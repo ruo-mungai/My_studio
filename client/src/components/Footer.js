@@ -4,10 +4,10 @@ import "./Main.css";
 function Footer() {
   return (
     <div id="footer">
-    <div className="container">
+    <div class="container">
       <h3>Patrick's Studio</h3>
       <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
-      <div className="copyright">
+      <div class="copyright">
         &copy; 2022 Copyright <strong><span>Patrick's Studio</span></strong>. All Rights Reserved
       </div>
     

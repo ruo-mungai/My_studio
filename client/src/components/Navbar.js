@@ -1,32 +1,29 @@
 import React from 'react'
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
     <div
-      id="header"
-      className="fixed-top d-flex justify-content-center align-items-center header-transparent"
+      className="header"
+      class="fixed-top d-flex justify-content-center align-items-center header-transparent"
     >
-      <div>
-        <nav id="navbar" className="navbar">
-          <ul>
-            <li>
-              <a className="nav-link scrollto active" href="#home">
-                Home
-              </a>
-            </li>
-            <li>
-              <a className="nav-link scrollto" href="#about">
-                About
-              </a>
-            </li>
-            <li>
-              <a className="nav-link scrollto" href="#services">
-                Services
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li></li>
+          <button type="button" class="btn btn-secondary">
+            <a class="nav-link scrollto" href="#services">
+              Services
+            </a>
+          </button>
+        </ul>
+        <NavLink style={{ marginLeft: "10px" }} to="/">
+          <button type="button" class="btn btn-secondary">
+            <a class="nav-link scrollto" href="#services">
+            Home
+            </a>
+          </button>
+        </NavLink>
+      </nav>
     </div>
   );
 }
