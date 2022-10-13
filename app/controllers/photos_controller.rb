@@ -2,6 +2,8 @@ class PhotosController < ApplicationController
     rescue_from ActiveRecord::RecordNotFound, with: :render_error
 rescue_from ActiveRecord::RecordInvalid, with: :render_unprocessable_entity_response
 
+ before_action :authorize
+
     def index
        render json: Photo.all,status: :ok
     end 
@@ -54,4 +56,9 @@ rescue_from ActiveRecord::RecordInvalid, with: :render_unprocessable_entity_resp
     def render_unprocessable_entity_response(invalid)
         render json: { errors: invalid.record.errors.full_messages }, status: :unprocessable_entity
     end
+
+    def authorize
+    return render json: { error: "Not authorized" }, status: :unauthorized unless session.include? :user_id
+    end
+
 end
