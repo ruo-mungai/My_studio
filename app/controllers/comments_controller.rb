@@ -1,6 +1,8 @@
 class CommentsController < ApplicationController
     rescue_from ActiveRecord::RecordNotFound, with: :render_error
 rescue_from ActiveRecord::RecordInvalid, with: :render_unprocessable_entity_response
+ 
+   before_action :authorize
 
     def index
        render json: Comment.all,status: :ok
