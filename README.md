@@ -15,24 +15,12 @@ It has a home page,services, photos and add photo.
 
 Home has the land view.
 Photo displays all the photos in database
-Addphoto where 
+Addphoto where users can add photos
 
-Things you may want to cover:
+## Technology 
+React, rails and ruby
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
