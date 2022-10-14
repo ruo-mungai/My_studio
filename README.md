@@ -1,7 +1,17 @@
-# README
+# Studio app
+The app is about posting photos, Other users can like and comment on the photo.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The app has Frontend and Backend.
+
+## BackEnd
+It developed using rails. It has two tables photos and comments.
+Photo has many comments and comments belongs_to a photo.
+Photo has (name, url, category and like)
+comments has description and photo_id.
+
+## FrontEnd
+It's developed using react.
+It has a home page,services, photos and add photo
 
 Things you may want to cover:
 
