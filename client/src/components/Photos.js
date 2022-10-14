@@ -26,6 +26,9 @@ useEffect(() => {
   // declare the data fetching function
   const fetchData = async () => {
     const data = await fetch("/photo");
+    const photodata= data.json();
+
+    setPhoto(photodata)
   };
 
   // call the function

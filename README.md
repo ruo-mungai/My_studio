@@ -11,7 +11,10 @@ comments has description and photo_id.
 
 ## FrontEnd
 It's developed using react.
-It has a home page,services, photos and add photo
+It has a home page,services, photos and add photo.
+
+Home has the land view.
+Photo displays all the photos
 
 Things you may want to cover:
 
