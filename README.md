@@ -14,7 +14,8 @@ It's developed using react.
 It has a home page,services, photos and add photo.
 
 Home has the land view.
-Photo displays all the photos
+Photo displays all the photos in database
+Addphoto where 
 
 Things you may want to cover:
 
