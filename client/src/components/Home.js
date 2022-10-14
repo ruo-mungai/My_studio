@@ -7,8 +7,8 @@ function Home() {
   return (
     <div>
       <section id="home">
-        <div class="home-container">
-          <h1>Patrick Mungai</h1>
+        <div className="home-container">
+          <h1>Patrick Studio</h1>
           <h2>Welcome to my Studio App</h2>
         </div>
       </section>

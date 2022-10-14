@@ -5,21 +5,21 @@ import "./Main.css"
 function Service() {
   return (
     <div>
-      <section id="services" class="services">
-        <div class="container">
-          <div class="section-title">
+      <section id="services" className="services">
+        <div className="container">
+          <div className="section-title">
             <span>Our Services</span>
             <h2>Our Services</h2>
           </div>
 
-          <div class="row">
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-              <div class="icon-box">
-                <div class="icon">
-                  <i class="bi bi-images"></i>
+          <div className="row">
+            <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+              <div className="icon-box">
+                <div className="icon">
+                  <i className="bi bi-images"></i>
                 </div>
-                <h4 class="title"> Photograpy</h4>
-                <p class="description">
+                <h4 className="title"> Photograpy</h4>
+                <p className="description">
                   Capturing the moment with crystal clear and attractive photos.
                   <br></br>
                   <br></br>
@@ -29,13 +29,13 @@ function Service() {
               </div>
             </div>
 
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-              <div class="icon-box">
-                <div class="icon">
-                  <i class="bi bi-camera-video"></i>
+            <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+              <div className="icon-box">
+                <div className="icon">
+                  <i className="bi bi-camera-video"></i>
                 </div>
-                <h4 class="title"> Videography</h4>
-                <p class="description">
+                <h4 className="title"> Videography</h4>
+                <p className="description">
                   Recording and making videos for your events.
                   <br></br>
                   <br></br>
@@ -45,13 +45,13 @@ function Service() {
               </div>
             </div>
 
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-              <div class="icon-box">
-                <div class="icon">
-                  <i class="bi bi-broadcast"></i>
+            <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+              <div className="icon-box">
+                <div className="icon">
+                  <i className="bi bi-broadcast"></i>
                 </div>
-                <h4 class="title"> Live Streaming</h4>
-                <p class="description">
+                <h4 className="title"> Live Streaming</h4>
+                <p className="description">
                   Air your events live and in realyime.
                   <br></br>
                   <br></br>
@@ -62,13 +62,13 @@ function Service() {
               </div>
             </div>
 
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-              <div class="icon-box">
-                <div class="icon">
-                  <i class="bi bi-mortarboard"></i>
+            <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+              <div className="icon-box">
+                <div className="icon">
+                  <i className="bi bi-mortarboard"></i>
                 </div>
-                <h4 class="title">Photograpy Training</h4>
-                <p class="description">
+                <h4 className="title">Photograpy Training</h4>
+                <p className="description">
                   Learn everything about photograpy from zero to advance level
                   and gain the skills to help you capture every moment
                   professionally

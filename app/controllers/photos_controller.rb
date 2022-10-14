@@ -1,4 +1,5 @@
 class PhotosController < ApplicationController
+   
     rescue_from ActiveRecord::RecordNotFound, with: :render_error
 rescue_from ActiveRecord::RecordInvalid, with: :render_unprocessable_entity_response
 

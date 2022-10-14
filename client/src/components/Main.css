@@ -194,6 +194,14 @@ h6 {
   position: relative;
 }
 
+#test {
+  width: 100%;
+  height: 100vh;
+  background: url("../Images/about.jpeg") center center no-repeat;; 
+  background-size:cover ;
+  position: relative;
+}
+
 #home:before {
   content: "";
   background: rgba(0, 0, 0, 0.65);
