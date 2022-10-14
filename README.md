@@ -20,6 +20,13 @@ Addphoto where users can add photos
 ## Technology 
 React, rails and ruby
 
+## Contact
+roumungai@gmail.com
+
+## Installation
+ 
+Folk the repo to local machine the run npm install to install all client dependency and bundle install to install rails dependency.
+
 
 
 
